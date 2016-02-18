@@ -1,0 +1,26 @@
+﻿Build started 12/10/2015 11:30:39 AM.
+     1>Project "C:\Users\Elliot\documents\visual studio 2015\Projects\game\game\game.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(469): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1020): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1026): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1036): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1049): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1051): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1075): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1086): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(1138): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(777): warning C4715: 'Bouncer::collision': not all control paths return a value
+     1>c:\users\elliot\documents\visual studio 2015\projects\game\game\main.cpp(590): warning C4715: 'Teapot::collision': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Elliot\documents\visual studio 2015\Projects\game\Debug\game.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Elliot\documents\visual studio 2015\Projects\game\Debug\game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Elliot\documents\visual studio 2015\Projects\game\Debug\game.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Mesh.obj
+         Debug\stb_image.obj
+         game.vcxproj -> C:\Users\Elliot\documents\visual studio 2015\Projects\game\Debug\game.exe
+     1>Done Building Project "C:\Users\Elliot\documents\visual studio 2015\Projects\game\game\game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
